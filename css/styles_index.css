@@ -1,0 +1,216 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol, li{
+	list-style: none
+}
+
+body {
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 375px;
+}
+
+.site-header {
+	background-color: #fff;
+}
+
+.menu {
+	display: flex;
+	justify-content:space-between;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.menu-main {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.menu-main a {
+	border-radius: 7px;
+	border-color: #373f48;
+	text-decoration: none;
+	letter-spacing: 1px;
+	background: #373f48;
+	color:#fff;
+    padding: 8px 14px 8px 14px;
+	}
+
+	.site-banner {
+		background-color: #1a1718;
+	}
+
+	.site-banner__items {
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+
+	.site-banner__text1 h1 {
+		font-size: 15px;
+		color: #e9b370;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.site-banner__text2 {
+		padding-top: 30px;
+	}
+
+	.site-banner__text2 h2 {
+		font-size: 40px;
+		color: #ffffff;
+		text-align: center;	
+		font-weight: 700;
+		letter-spacing: 0.5px;
+		line-height: 0.7em;
+		padding-bottom: 10px;
+		font-family: serif;
+	}
+
+	.site-banner__text2 span {
+		color: #e9b370;
+	}
+
+	.site-hello {
+		background-color: #ffffff;
+	}
+
+	.site-hello__text1 h3 {
+		text-align: center;
+		padding-bottom: 20px;
+		text-decoration: underline black 2px;
+	}
+
+
+	.site-hello__text2 {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.site-hello__text2 h3 {
+		font-size: 35px;
+		text-align: center;
+		padding-bottom: 20px;
+		font-family: serif;
+	}
+
+	.site-hello__text2 p {
+		font-size: 22px;
+		text-align: center;
+		padding-bottom: 10px;
+		font-family: Georgia,serif;
+	}
+	
+	.our-project {
+		padding-top: 50px;
+	}
+
+	.our-project__text1 h3 {
+		text-align: center;
+		padding-bottom: 20px;
+		text-decoration: underline black 2px;
+	}
+
+	.our-project__foto {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+
+	.our-project__foto img {
+		border: 1px solid black;
+		border-radius: 15px;
+		padding: 5px;
+	}
+
+	.our-expertise {
+		background-color: #1a1718;
+	}
+
+	.our-expertise__foto {
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.our-expertise__text1 h3 {
+		color: #fff;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 40px;
+		text-decoration: underline white 2px;
+	}
+
+
+	.our-expertise__blocktext {
+		padding-bottom: 30px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.our-expertise__blocktext h4 {
+		color: #fff;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-family: Georgia,serif;
+		font-size: 30px;
+	}
+
+	.our-expertise__blocktext p {
+		font-size: 22px;
+		color: #e9b370;
+		text-align: center;
+		padding-top: 10px;
+		font-family: Georgia,serif;
+	}
+
+	.footer-index {
+		background-color: #1a1718;
+	}
+
+	.main-adress {
+		color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.main-adress h4 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+
+	.main-adress span {
+		color: #e9b370;
+	}
+
+	.footer-logo {
+		display: flex;
+		padding-top: 20px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+	}
+
+	.footer-logo h5 {
+		color: #fff;
+	}
+
+	.menu-logo-footer {
+		padding-right: 30px;
+	}
+
+

@@ -1,0 +1,143 @@
+/* Сброс/Reset */
+h1,h2,h3,h4,h5,h6,div,body,p,ul,ol,li{
+    padding: 0;
+    margin: 0
+}
+
+ul,ol, li{
+	list-style: none
+}
+
+body {
+  background-size: cover;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 375px;
+}
+
+.site-header {
+	background-color: #fff;
+}
+
+.menu {
+	display: flex;
+	justify-content:space-between;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.menu-main {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.menu-main a {
+	border-radius: 7px;
+	border-color: #373f48;
+	text-decoration: none;
+	letter-spacing: 1px;
+	background: #373f48;
+	color:#fff;
+    padding: 8px 14px 8px 14px;
+	}
+
+.our-works__items {
+	padding-top: 30px;
+	
+}
+
+.our-works__foto {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.our-works__text1 p {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 50px;
+	text-decoration: underline black 2px;
+}
+
+.our-works__text2 {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.our-works__text2 h2 {
+	font-size: 30px;
+	text-align: center;	
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 1em;
+	padding-bottom: 10px;
+	font-family: serif;
+}
+
+.our-works__text2 span {
+	color: #e9b370;
+}
+
+.our-project {
+	padding-top: 50px;
+}
+
+.our-project__text1 h3 {
+	text-align: center;
+	padding-bottom: 20px;
+	text-decoration: underline black 2px;
+}
+
+.our-project__foto {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+.our-project__foto img {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+.footer-index {
+	background-color: #1a1718;
+}
+
+.main-adress {
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.main-adress h4 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.main-adress span {
+	color: #e9b370;
+}
+
+.footer-logo {
+	display: flex;
+	padding-top: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.footer-logo h5 {
+	color: #fff;
+}
+
+.menu-logo-footer {
+	padding-right: 30px;
+}
